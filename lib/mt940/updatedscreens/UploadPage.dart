@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:mt940/mt940/Functions/Firebasefunc.dart';
+import 'package:mt940/services/upload_task.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 import 'MainPage.dart';
