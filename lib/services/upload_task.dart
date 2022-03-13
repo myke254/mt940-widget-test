@@ -13,11 +13,12 @@ class Mt940FirebaseFunc {
     } else {
       // String imageFileName = DateTime.now().millisecondsSinceEpoch.toString();
 
-      final Reference storagereference =
+      final Reference storageReference =
+
           FirebaseStorage.instance.ref().child("Mt940");
       // print(mFileImage['originalPath'].toString());
 
-      UploadTask uploadTask = storagereference
+      UploadTask uploadTask = storageReference
           .child("file$uniqueid.txt")
           .putFile(mFileImage);
 
